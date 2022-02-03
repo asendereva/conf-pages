@@ -20,8 +20,8 @@ $speakerCarousel.owlCarousel({
       }
     },
     navText: [
-      '<img src="/images/arrow.png">',
-      '<img src="/images/arrow.png">'
+      '<img src="arrow.png">',
+      '<img src="arrow.png">'
     ]
 
 
