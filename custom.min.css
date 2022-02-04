@@ -55576,6 +55576,11 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
     color: #000
 }
 
+.online-conference-block .section-type-participation .type-participation-block .type-participation-block-bottom .conf-price.free{
+    flex-direction: column;
+}
+
+
 .online-conference-block .section-type-participation .type-participation-block .type-participation-block-bottom .conference-registe-btn{
     margin: 10px auto 0;
     padding: 10px 20px;
