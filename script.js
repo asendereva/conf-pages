@@ -2,33 +2,34 @@ var $speakerCarousel = $(".speaker-carousel");
 var $readersLogo = $(".readers-logo");
 var $confReviews = $(".conf-reviews");
 
-
-$speakerCarousel.owlCarousel({ 
-    items: 2, 
-    loop: true,
-    dots: true, 
-    nav:true,
-    responsive:{
-      0:{
-        items:1,
-        dots: false,
+  $speakerCarousel.slick({
+    dots: true,
+    arrows:true,
+    infinite: true,
+    centerPadding: '20px',
+    slidesToShow: 2,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          centerMode: true,
+          centerPadding: '20px',
+          slidesToShow: 2
+        }
       },
-      540:{
-        items:1,
-        dots: false,
-      },
-      768:{
-        items:2,
-        dots: false,
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: true,
+          dots: false,
+          centerMode: true,
+          centerPadding: '10px',
+          slidesToShow: 1
+        }
       }
-    },
-    navText: [
-      '<img src="arrow.png">',
-      '<img src="arrow.png">'
     ]
+    });
 
-
-  });
 
   $confReviews.slick({
   dots: true,
@@ -61,21 +62,32 @@ $speakerCarousel.owlCarousel({
 
 
   if($(window).width() < 768){ 
-    $(".readers-logo").owlCarousel({ 
-    loop: true, 
-    items: 3, 
-    dots: false, 
-    nav:true,
-    autoplay: true, 
-    autoplayTimeout: 5000, 
-    navText: [
-      '<img src="arrow.png">',
-      '<img src="arrow.png">'
-    ]
+    $(".readers-logo").slick({ 
+      dots: true,
+      infinite: true,
+      centerMode: true,
+      centerPadding: '20px',
+      slidesToShow: 4,
+      responsive: [
+           {
+          breakpoint: 480,
+          settings: {
+            arrows: true,
+            dots: false,
+            centerMode: true,
+            centerPadding: '20px',
+            slidesToShow: 3
+          }
+        }
+      ]
    }); 
     
   }else{ 
-    $(".readers-logo").removeClass("owl-carousel"); 
+    $(".readers-logo").removeClass(".readers-logo"); 
   }
 
-
+ /*collapse questions*/
+ $('.questions .item .collapse').click(function () {
+  $(this).closest('.questions .item').find('.open').slideToggle();
+  $(this).toggleClass('opened');
+})
