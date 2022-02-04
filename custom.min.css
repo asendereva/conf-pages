@@ -54986,6 +54986,7 @@ section.banner-bottom_page.active{
 }
 
 .online-conference-block .section-info{
+    max-width: 1200px;
     padding-top: 75px;
     padding-bottom: 75px;
     background: #fff;
