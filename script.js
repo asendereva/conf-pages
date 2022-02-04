@@ -63,7 +63,7 @@ var $confReviews = $(".conf-reviews");
 
   if($(window).width() < 768){ 
     $(".readers-logo").slick({ 
-      dots: true,
+      dots: false,
       infinite: true,
       centerMode: true,
       centerPadding: '20px',
