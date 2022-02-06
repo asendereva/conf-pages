@@ -55447,7 +55447,7 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
     -webkit-text-stroke: 1px #949393;
     
 }
-
+/*
 .online-conference-block .section-info span.name:after{
     margin: 35px 0 0 10px;
     content: '';
@@ -55468,7 +55468,24 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-radius: 50%;
     background: #fd6d22;
     position: absolute;
+}*/
+
+.online-conference-block .section-info .fa-circle.first:before{
+    margin: -22px -20px;
+    
 }
+
+.online-conference-block .section-info .fa-circle:before{
+    margin: -22px 5px;
+    display: inline-block;
+    font-size: 12px;
+    color: #fd6d22;
+    background: #fd6d22;
+    -webkit-text-stroke: 1px #fd6d22;
+    border-radius: 50%;
+    position: absolute;
+}
+
 
 .online-conference-block .section-info .info-title {
     display: flex;
