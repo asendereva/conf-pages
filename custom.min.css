@@ -56005,7 +56005,8 @@ margin-top: 50px;
 }
 
 
-@media (max-width: 1024px){
+
+@media (max-width: 740px){
     .online-conference-block button.slick-next.slick-arrow{
         right: 70px;
         top: 105%
@@ -56014,6 +56015,20 @@ margin-top: 50px;
     .online-conference-block button.slick-prev.slick-arrow{
         left:70px;
         top: 105%
+    }
+
+}
+
+
+@media (min-width: 740px) and (max-width: 780px){
+    .online-conference-block .section-organizers .readers-logo button.slick-next.slick-arrow{
+        right: 250px;
+        top: 125%
+    }
+
+    .online-conference-block .section-organizers .readers-logo button.slick-prev.slick-arrow{
+        left: 250px;
+        top: 125%
     }
 
 }
