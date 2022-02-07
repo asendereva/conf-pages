@@ -55610,7 +55610,6 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 @media (max-width: 768px){
     .online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom{
-        flex-direction: column;
         height: 150px;
         justify-content: space-around;
     }
