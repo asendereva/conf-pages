@@ -55643,7 +55643,12 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
 
     .online-conference-block .section-timer .section-countdown{
-        margin-top: 10px
+       
+     margin-top: 10px
+    }
+
+    .online-conference-block .section-speaker .speaker-card{
+        height: 430px
     }
     
 }
