@@ -55158,7 +55158,7 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
     color:white
 }
 
-@media (max-width: 768px){
+@media (max-width: 425px){
     .online-conference-block .section-timer h2{
         text-align: center;
     }
@@ -55583,59 +55583,101 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 
-.online-conference-block .section-type-participation .type-participation-block .type-participation-block-bottom{
+.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom{
     display: flex;
     height: 116px;
     margin: 16px 0 0;
     text-align: center;
     border-top: 1px solid #b3b3b3;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.online-conference-block .section-type-participation .participation-cards.free .type-participation-block-bottom{
+    display: flex;
+    height: 116px;
+    margin: 16px 0 0;
+    text-align: center;
+    border-top: 1px solid #b3b3b3;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 @media (max-width: 768px){
-    .online-conference-block .section-type-participation .type-participation-block .type-participation-block-bottom{
+    .online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom{
+        flex-direction: column;
         height: 150px;
+        justify-content: space-around;
     }
+
+  
 }
 
-.online-conference-block .section-type-participation .type-participation-block .type-participation-block-bottom p {
+.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom p {
     font-family: 'Mont-Bold';
     font-size: 24px;
     color: #fd6d22;
 }
 
-.online-conference-block .section-type-participation .type-participation-block .type-participation-block-bottom p.sale{
+.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom p.sale{
     margin-left: 10px;
     font-family: 'Mont-Regular';
     font-size: 18px;
     color: black;
 }
 
-.online-conference-block .section-type-participation .type-participation-block .type-participation-block-bottom .conf-price{
-    display: flex;
-    align-items: center;
-    justify-content: center
+.online-conference-block .section-type-participation .participation-cards.free .type-participation-block .type-participation-block-bottom p.sale{
+    margin-right: 10px;
 }
 
+.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom .conf-price{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.online-conference-block .section-type-participation .participation-cards.free .type-participation-block .type-participation-block-bottom .conf-price{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.online-conference-block .section-type-participation .participation-cards.free .type-participation-block .type-participation-block-bottom .conf-price .sale-free{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 @media (max-width: 768px){
-    .online-conference-block .section-type-participation .type-participation-block .type-participation-block-bottom .conf-price{
+    .online-conference-block .section-type-participation .participation-cards.free .type-participation-block .type-participation-block-bottom .conf-price{
+        flex-direction: column;
+    }
+
+    .online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom .conf-price.free{
         flex-direction: column;
     }
 }
 
-.online-conference-block .section-type-participation .type-participation-block .type-participation-block-bottom .conf-price.free p{
+.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom .conf-price.free p{
     color: #000
 }
 
-.online-conference-block .section-type-participation .type-participation-block .type-participation-block-bottom .conf-price.free{
-    flex-direction: column;
+.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom .conf-price.free{
+    flex-direction: row;
 }
 
 
-.online-conference-block .section-type-participation .type-participation-block .type-participation-block-bottom .conference-registe-btn{
-    margin: 10px auto 0;
+.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom .conference-registe-btn{
+    margin: 10px 0;
+    max-height: 50px;
     padding: 10px 20px;
     font-size: 20px;
     font-family: 'Mont-Regular';
@@ -55756,6 +55798,8 @@ margin-top: 50px;
 }
 
 .online-conference-block .help-block{
+    margin: 0 auto;
+    max-width: 1120px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
