@@ -54992,6 +54992,7 @@ padding: 15px 15px;
 }
 
 .online-conference-block .section-info{
+    display: none;
     padding-top: 75px;
     padding-bottom: 75px;
     background: #fff;
@@ -55147,12 +55148,11 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 .online-conference-block .section-timer{
     background-color: #fd6d22; 
-    padding: 90px 0;
+    padding: 90px 75px;
 }
 
 
 .online-conference-block .section-timer h2{
-    margin-bottom: 30px;
     padding: 0;
     text-transform: none;
     text-align: start;
@@ -55173,14 +55173,12 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
 .online-conference-block .section-timer .section-countdown{
     display: flex;
     justify-content: flex-end;
-    margin-top: 10px;
     padding: 0;
 }
 
 @media (max-width: 768px){
 
     .online-conference-block .section-timer .section-countdown {
-        margin-top:30px;
         justify-content: center;
     }
 }
@@ -55203,12 +55201,12 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 .online-conference-block .section-timer .section-countdown .clock .countbs{
     margin-right: 0;
-    margin-left: 15px;
     padding: 0 10px;
     border: 1px solid white;
     border-radius: 7px;
 
 }
+
 
 .online-conference-block .section-participation{
     padding: 75px 110px;
@@ -55756,7 +55754,8 @@ margin-top: 50px;
 
 .online-conference-block .help-block{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -55766,6 +55765,11 @@ margin-top: 50px;
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
+
+    }
+
+    .online-conference-block .help-block .help-btn{
+        margin-top: 30px
 
     }
 
