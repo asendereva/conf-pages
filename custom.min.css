@@ -55010,6 +55010,11 @@ padding: 15px 15px;
     .online-conference-block h2{
         font-size: 30px;
     }
+
+    .online-conference-block .conference-iformation .iformation-row .column span{
+    margin-right: 15px;
+    font-size:40px;
+    }
 }
 
 .online-conference-block .section-info p.h2{
@@ -55647,10 +55652,13 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
      margin-top: 10px
     }
 
-    .online-conference-block .section-speaker .speaker-card{
-        height: 430px
-    }
-    
+        
+}
+
+@media (min-width: 769px){
+.online-conference-block .section-speaker .speaker-card{
+    height: 430px
+}
 }
 
 @media (max-width: 768px){
@@ -56276,6 +56284,7 @@ button:hover{
         max-height: 100%
     }
 }
+
 
 
 .section-info.marquee{

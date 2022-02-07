@@ -83,7 +83,7 @@ var $confReviews = $(".conf-reviews");
    }); 
     
   }else{ 
-    $(".readers-logo").removeClass(".readers-logo"); 
+    $removeClass(".readers-logo"); 
   }
 
  /*collapse questions*/
@@ -91,3 +91,6 @@ var $confReviews = $(".conf-reviews");
   $(this).closest('.questions .item').find('.open').slideToggle();
   $(this).toggleClass('opened');
 })
+
+
+
