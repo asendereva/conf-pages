@@ -54992,7 +54992,6 @@ padding: 15px 15px;
 }
 
 .online-conference-block .section-info{
-    display: none;
     padding-top: 75px;
     padding-bottom: 75px;
     background: #fff;
@@ -55185,6 +55184,10 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 .online-conference-block .section-timer .section-countdown .countdown{
     margin:0;
+}
+
+.online-conference-block .section-timer .section-countdown .countdown .countbs:first-child{
+    margin: 0
 }
 
 .online-conference-block .section-timer .section-countdown .clock span{
@@ -56186,6 +56189,10 @@ button:hover{
     }
 }
 
+
+.section-info.marquee{
+    display: none
+}
 marquee {
 overflow: hidden
 }
