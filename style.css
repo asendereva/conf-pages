@@ -1625,3 +1625,8 @@ button:hover{
         max-height: 100%
     }
 }
+
+
+.online-conference-block .section-info.marquee{
+    display: none
+}
