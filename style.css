@@ -1,0 +1,1627 @@
+/*Стили для новой страницы конференции*/
+
+@font-face {
+    font-family: 'Mont-Black';
+    src: url('/fonts/Mont-Black.eot');
+    src: local('Mont Black'), local('Mont-Black'),
+        url('/fonts/Mont-Black.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Mont-Black.woff2') format('woff2'),
+        url('/fonts/Mont-Black.woff') format('woff'),
+        url('/fonts/Mont-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont-Regular';
+    src: url('/fonts/Mont-Regular.eot');
+    src: local('Mont Regular'), local('Mont-Regular'),
+        url('/fonts/Mont-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Mont-Regular.woff2') format('woff2'),
+        url('/fonts/Mont-Regular.woff') format('woff'),
+        url('/fonts/Mont-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont-SemiBold';
+    src: url('/fonts/Mont-SemiBold.eot');
+    src: local('Mont SemiBold'), local('Mont-SemiBold'),
+        url('/fonts/Mont-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Mont-SemiBold.woff2') format('woff2'),
+        url('/fonts/Mont-SemiBold.woff') format('woff'),
+        url('/fonts/Mont-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont';
+    src: url('/fonts/Mont-ThinItalic.eot');
+    src: local('Mont Thin Italic'), local('Mont-ThinItalic'),
+        url('/fonts/Mont-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Mont-ThinItalic.woff2') format('woff2'),
+        url('/fonts/Mont-ThinItalic.woff') format('woff'),
+        url('/fonts/Mont-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mont-RegularItalic';
+    src: url('/fonts/Mont-RegularItalic.eot');
+    src: local('Mont Regular Italic'), local('Mont-RegularItalic'),
+        url('/fonts/Mont-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Mont-RegularItalic.woff2') format('woff2'),
+        url('/fonts/Mont-RegularItalic.woff') format('woff'),
+        url('/fonts/Mont-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mont-Heavy';
+    src: url('/fonts/Mont-Heavy.eot');
+    src: local('Mont Heavy'), local('Mont-Heavy'),
+        url('/fonts/Mont-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Mont-Heavy.woff2') format('woff2'),
+        url('/fonts/Mont-Heavy.woff') format('woff'),
+        url('/fonts/Mont-Heavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont-Light';
+    src: url('/fonts/Mont-Light.eot');
+    src: local('Mont Light'), local('Mont-Light'),
+        url('/fonts/Mont-Light.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Mont-Light.woff2') format('woff2'),
+        url('/fonts/Mont-Light.woff') format('woff'),
+        url('/fonts/Mont-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont-Bold';
+    src: url('/fonts/Mont-Bold.eot');
+    src: local('Mont Bold'), local('Mont-Bold'),
+        url('/fonts/Mont-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Mont-Bold.woff2') format('woff2'),
+        url('/fonts/Mont-Bold.woff') format('woff'),
+        url('/fonts/Mont-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.online-conference-block {
+    background: #faf8f7;
+    font-family: 'Mont-Regular';
+    font-size: 16px;
+    overflow: hidden
+
+}
+
+.online-conference-block h1{
+    color: #fff;
+    font-family: 'Mont-Black';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.866px 2px rgb(0 0 0 / 30%);
+    line-height: 1.24;
+    font-size: 68px;
+    margin: 45px 0 45px;
+    padding: 0;
+}
+
+
+@media (max-width: 768px){
+.online-conference-block h1 {
+    margin: 30px 0 30px;
+    font-size: 36px;
+    text-align: center;
+
+}
+}
+
+.online-conference-block .section-conference{
+    padding-top: 40px;
+    padding-bottom: 15px;
+    min-height: 600px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+}
+
+.online-conference-block .section-conference .container .column{
+    position: relative;
+    margin-bottom: 45px
+}
+
+.online-conference-block .section-conference .container .column .column-info{
+    display:flex;
+}
+
+@media (max-width: 822px){
+    .online-conference-block .section-conference .container .column .column-info{
+        justify-content: center;
+    }
+}
+
+.online-conference-block .section-conference .container .column .column-info .info-time{
+    font-family: 'Mont-Regular';
+    display: inherit;
+    padding: 15px 30px;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.2) ;
+}
+
+@media (max-width: 378px){
+.online-conference-block .section-conference .container .column .column-info .info-time{
+padding: 15px 15px;
+}
+}
+
+.online-conference-block .section-conference .container .column .column-info .info-time hr{
+  margin: 0 10px;
+  height:100%;
+  border: 1px solid white;
+}
+
+.online-conference-block .section-conference .container .column p.info-title{
+    font-size: 29px;
+    margin-bottom:45px;
+
+}
+
+@media (max-width: 822px){
+    .online-conference-block .section-conference .container .column p.info-title{
+        text-align: center;
+    }
+}
+
+.online-conference-block .section-conference .price_block-top{
+    display: flex;
+}
+
+.online-conference-block .section-conference .price_block-top .price_block{
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.online-conference-block .section-conference .price_block-top .price_block .conf-price{
+    display: flex;
+    
+}
+
+.online-conference-block .section-conference .price_block-top .price_block .conf-price p{
+    margin: 0 10px
+}
+
+.online-conference-block .section-conference .price_block-top .price_block p{
+    font-size: 24px;
+   
+}
+
+@media (max-width: 822px){
+    .online-conference-block .section-conference .price_block-top{
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .online-conference-block .section-conference .price_block-top .price_block{
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px
+
+    }
+}
+
+.online-conference-block .btn-white{
+    text-align: center;
+    position: relative;
+    padding: 10px 35px;
+    transition: all 0.3s ease;
+    background: #fff;
+    color: #000;
+    font-family: 'Mont-SemiBold';
+    font-size: 28px;
+    border-radius: 8px;
+    min-height: 60px;
+    height: 1px;
+}
+
+@media (max-width: 768px){
+    .online-conference-block .btn-block{
+        text-align: center
+    }
+}
+
+.online-conference-block a.btn-white:hover{
+    text-decoration:none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.online-conference-block .conference-iformation{
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.online-conference-block .conference-iformation .iformation-row{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 540px){
+.online-conference-block .conference-iformation .iformation-row{
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+.online-conference-block .conference-iformation .iformation-row .column{
+    max-width: calc((100% / 3) - 20px);
+    display: flex;
+    align-items: center;
+    font-size:20px;
+    margin-bottom: 0
+
+}
+
+@media (max-width: 540px){
+.online-conference-block .conference-iformation .iformation-row .column{
+    max-width: 100%;
+}
+}
+
+.online-conference-block .conference-iformation .iformation-row .column span{
+    margin-right: 25px;
+    font-family: 'Mont-Black';
+    font-size:50px;
+    font-weight: bold
+}
+
+.online-conference-block .section-info{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background: #fff;
+    overflow: hidden
+}
+
+.online-conference-block h2{
+    font-size: 36px;
+    font-family: 'Mont-Bold';
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .online-conference-block h2{
+        font-size: 30px;
+    }
+
+    .online-conference-block .conference-iformation .iformation-row .column span{
+    margin-right: 15px;
+    font-size:40px;
+    }
+}
+
+.online-conference-block .section-info p.h2{
+    margin-top:10px;
+    padding: 0;
+    font-size: 36px;
+    color: #000;
+    font-family: 'Mont-Bold';
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.online-conference-block .section-speaker{ 
+    background-color: #faf8f7;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.online-conference-block .section-speaker .speaker-card{
+    margin: 0 5px;
+    max-width: 475px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 14px
+}
+
+.online-conference-block .section-speaker .speaker-card:hover{
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+  
+
+.online-conference-block .section-speaker .speaker-card .speaker-about{
+    display: flex;
+    align-items: center;
+
+
+}
+
+@media (min-width: 428px) and (max-width: 768px){
+    .online-conference-block .section-speaker .speaker-card .speaker-about{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+}
+.online-conference-block .section-speaker .speaker-card .column .speaker-photo{
+      
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #ebebeb;
+    object-fit: cover;
+}
+
+.online-conference-block .section-speaker .speaker-card .speaker-title{
+    font-size: 22px;
+    font-family: 'Mont-Bold';
+    margin: 30px;
+}
+
+.online-conference-block .section-speaker .speaker-card .speaker-title span{
+    font-family: 'Mont-RegularItalic';
+    font-size: 16px;
+}
+
+.online-conference-block .section-speaker .speaker-card .speaker-desc{
+    min-height: 135px;
+    height: 100%;
+}
+
+@media (max-width: 768px){
+    .online-conference-block .section-speaker .speaker-card .speaker-desc{
+    min-height: 178px 
+    }
+}
+
+.online-conference-block .section-speaker .speaker-carousel .item{
+    margin: 75px 0 60px 0;
+}
+
+@media (max-width: 768px){
+    .online-conference-block .section-speaker .speaker-carousel .item{
+        margin: 35px 0 20px 0;
+    } 
+}
+
+.online-conference-block .section-speaker .speaker-carousel .owl-nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    z-index: -1;
+}
+
+@media (max-width: 768px){
+    .online-conference-block .section-speaker .speaker-carousel .owl-nav{
+    transform: translate(-50%, 0);
+    justify-content: space-around;
+    top: 100%;
+}
+}
+
+.online-conference-block .section-speaker .speaker-carousel .owl-nav button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:53px;
+    height: 53px;
+    border-radius: 50%;
+    border: 1px solid #b3b3b3;
+}
+
+@media (max-width: 768px){
+    .online-conference-block .section-speaker .speaker-carousel .owl-nav button{
+        width:43px;
+    height: 43px;
+    }
+}
+
+.online-conference-block .section-speaker .speaker-carousel .owl-nav button:hover{
+    background-color: #e9e9e9;  
+    border: none;
+}
+
+
+
+.online-conference-block .section-speaker .speaker-carousel .owl-nav button.owl-next img{
+    transform: rotate(180deg)
+}
+
+.online-conference-block .section-timer{
+    background-color: #fd6d22; 
+    padding: 90px 75px;
+}
+
+
+.online-conference-block .section-timer h2{
+    padding: 0;
+    text-transform: none;
+    text-align: start;
+    color:white
+}
+
+@media (max-width: 425px){
+    .online-conference-block .section-timer h2{
+        text-align: center;
+    }
+
+    .online-conference-block .section-timer{
+        padding: 90px 10px; 
+    }
+}
+
+
+.online-conference-block .section-timer .section-countdown{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+@media (max-width: 768px){
+
+    .online-conference-block .section-timer .section-countdown {
+        justify-content: center;
+    }
+}
+
+.online-conference-block .section-timer .section-countdown .countdown{
+    margin:0;
+}
+
+.online-conference-block .section-timer .section-countdown .countdown .countbs:first-child{
+    margin: 0
+}
+
+.online-conference-block .section-timer .section-countdown .clock span{
+    color: white !important;
+    font-family: 'Mont-Heavy';
+    font-size: 60px;
+    
+    
+}
+
+.online-conference-block .section-timer .section-countdown .clock p{
+    color: white;
+}
+
+.online-conference-block .section-timer .section-countdown .clock .countbs{
+    margin-right: 0;
+    padding: 0 10px;
+    border: 1px solid white;
+    border-radius: 7px;
+
+}
+
+
+.online-conference-block .section-participation{
+    padding: 75px 110px;
+    background-color: #faf8f7;
+}
+
+@media (max-width: 1024px){
+    .online-conference-block .section-participation{
+        padding: 75px 0;
+    }
+}
+
+@media (max-width: 768px){
+
+    .online-conference-block .section-timer .section-countdown .clock .countbs{
+        margin-top: 10px
+    }
+}
+
+
+
+
+.online-conference-block .section-participation h2{
+    margin-bottom: 35px
+}
+
+.online-conference-block .section-participation .for-tittle{
+    margin: 0 auto 60px auto;
+    max-width: 400px;
+    text-align: center
+
+}
+
+
+.online-conference-block .participation-description .participation-left {
+    background: none;
+}
+
+
+.online-conference-block .participation-description .participation-right{
+    font-family: 'Mont-Bold';
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.online-conference-block .section-writing.conference-outer-online{
+    padding-top: 75px;
+    background-color: #fff;
+
+}
+
+.online-conference-block .section-writing .program-time{
+    margin: 35px 0;
+    display: flex;
+    justify-content: center
+}
+
+.online-conference-block .section-writing .program-time span:first-child{
+    margin-right: 25px;
+}
+
+@media (max-width: 375px){
+    .online-conference-block .section-writing .program-time span:first-child{
+        margin-right: 10px;
+    } 
+}
+
+.online-conference-block .section-writing .writing-block{
+   background: #f8f8f8;
+   border: 1px solid #b3b3b3;
+   border-radius: 14px;
+   display: flex;
+   background: #f8f8f8;
+   border: 1px solid #b3b3b3;
+   border-radius: 14px;
+   flex-direction: row;
+   align-content: center;
+   align-items: center;
+   justify-content: space-between;
+}
+
+@media (max-width: 1024px){
+    .online-conference-block .section-writing .writing-block{
+        flex-direction: row-reverse;
+    }
+
+    .online-conference-block .section-writing .writing-block.dinner{
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 1024px){
+        
+
+
+    .online-conference-block .section-writing .writing-block.dinner .writing-title{
+        margin-top: 15px
+    }
+    
+}
+
+
+
+
+
+.online-conference-block .section-writing .writing-block .time{
+    font-family: 'Mont-Bold';
+    font-size: 20px;
+   
+}
+
+.online-conference-block .section-writing .writing-block .watch_video-conf a{
+    font-size: 20px;
+    color: #fff;
+    background: #ec6707;
+    border-radius: 15px;
+    font-family: 'Mont-Regular';
+    padding: 10px 15px;
+    width: 100%;
+    display: table;
+    text-decoration: none;
+    border: none;
+}
+
+.online-conference-block .section-writing .writing-block .more{
+    margin-top: 10px;
+    color: #000;
+    font-family: 'Mont-Regular';
+    font-size: 22px;
+
+}
+.online-conference-block .section-writing .writing-block .writing-title{
+    font-family: 'Mont-Bold';
+    font-size: 24px;
+}
+
+
+.online-conference-block .section-writing .writing-block a.more.online-conf-more-block{
+
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #b3b3b3;
+}
+
+@media (max-width: 1024px){
+    .online-conference-block .section-writing .writing-block a.more.online-conf-more-block{
+        order: -1
+    } 
+}
+
+.online-conference-block .section-writing .writing-block a.more.online-conf-more-block img{
+transform: rotate(180deg);
+}
+
+.online-conference-block .section-writing .writing-block .program-decript{
+    width:650px;
+    padding: 0 0 0 60px;
+    text-align:start;
+    border-left: 1px solid #b3b3b3;
+}
+
+@media (max-width: 1024px){
+    .online-conference-block .section-writing .writing-block .program-decript{
+        margin-top:15px;
+        padding: 15px 0 0 0;
+        border-left: none;
+        border-top: 1px solid #b3b3b3
+    } 
+}
+
+.online-conference-block .section-writing .writing-block .program-decript .writing-author-info{
+    display: flex;
+    margin-top:15px;
+    align-items: center;
+    font-family: 'Mont-Light';
+    font-size: 18px;
+}
+
+
+.online-conference-block .section-writing .writing-block .program-decript .writing-author-info .author{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.online-conference-block .section-writing .writing-block .program-decript .writing-author-info p.speaker-name{
+    margin: 0 5px;
+    font-weight: bold;
+
+}
+
+.online-conference-block .section-writing .writing-block .program-decript .clarifikation ul li{
+    margin: 0 15px;
+}
+
+
+.online-conference-block .section-writing .writing-block .program-decript .clarifikation ul li:before {
+    margin: 7px -15px;
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #fd6d22;
+    position: absolute;
+ 
+}
+
+
+.online-conference-block .section-writing .writing-block .more{
+    margin: 0;
+}
+
+.online-conference-block .section-writing .writing-block.dinner .writing-title{
+    font-family: 'Mont-Bold';
+    font-size: 24px;
+    text-transform: uppercase;
+
+}
+
+
+.online-conference-block .section-writing .writing-block.dinner .program-decript{
+    width: 650px;
+    padding: 0;
+    text-align: center
+
+}
+
+.online-conference-block .section-writing .writing-block.dinner .more{
+    width: 45px
+}
+
+@media (max-width: 1024px){
+    .online-conference-block .section-writing .writing-block.dinner .program-decript{
+        text-align: start
+    }
+}
+
+.btn-question-lector {
+    margin: 20px 0 0 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Mont-Regular';
+    border-radius: 15px
+
+}
+
+
+.online-conference-block .section-writing .writing-block:hover{
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.online-conference-block .section-info span.type{
+    margin: 0 10px;
+    font-family: 'Mont-SemiBold';
+    font-size: 23px;
+}
+
+.online-conference-block .section-info span.name{
+    margin: 0 20px;
+    font-family: 'Mont-Black';
+    font-size: 54px;
+    color: white;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #949393;
+    
+}
+
+.online-conference-block .section-info span.name:after{
+    margin: 35px 0 0 10px;
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #fd6d22;
+    position: absolute;
+}
+
+.online-conference-block .section-info span.name:before{
+    margin: 35px 0 0 -20px;
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #fd6d22;
+    position: absolute;
+}
+
+.online-conference-block .section-info .info-title {
+    display: flex;
+    align-items: center
+}
+
+.section-type-participation {
+    padding: 75px 0;
+    background-color: #faf8f7;
+}
+
+
+.online-conference-block .section-type-participation .participation-cards{
+    margin-top: 30px;
+    align-items: stretch;
+}
+
+.online-conference-block .section-type-participation .type-participation-block{
+    display: flex;
+    background: #fff;
+    height: 100%;
+    border-radius: 14px;
+    border: none;
+    padding: 30px 25px 10px 25px;
+    -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.online-conference-block .section-type-participation .type-participation-block.free:hover{
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.online-conference-block .section-type-participation .type-participation-block-top{
+    color: #000;
+    font-family: 'Mont-Bold';
+    font-size: 24px;
+
+}
+
+.online-conference-block .section-type-participation .type-participation-block-content{
+    padding: 25px 0 25px 25px;
+    
+}
+
+.online-conference-block .section-type-participation .type-participation-block-content li{
+    font-family: 'Mont-Regular';
+    font-size: 16px;
+}
+
+/*.online-conference-block .section-type-participation .type-participation-block-content li:before{
+    margin: 9px -15px;
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #777777;
+    position: absolute;
+}*/
+
+.online-conference-block .participation-cards li .fa-plus:before {
+    content: "\f067";
+    font-size: 15px;
+    color: #7b7b7b;
+}
+
+.online-conference-block .participation-cards li .fa-circle:before {
+    content: "\f111";
+    font-size: 10px;
+    color: #7b7b7b;
+}
+
+
+.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom{
+    display: flex;
+    height: 116px;
+    margin: 16px 0 0;
+    text-align: center;
+    border-top: 1px solid #b3b3b3;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.online-conference-block .section-type-participation .participation-cards.free .type-participation-block-bottom{
+    display: flex;
+    height: 116px;
+    margin: 16px 0 0;
+    text-align: center;
+    border-top: 1px solid #b3b3b3;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .online-conference-block .section-conference .btn-white{
+        font-size: 24px;
+        padding: 15px 35px 5px 35px;
+    }
+
+        .online-conference-block .section-type-participation .participation-cards{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;  
+        justify-content: center;
+    }
+
+    
+    .online-conference-block .section-type-participation .participation-cards .last{
+        margin-top: 20px
+    }
+
+    .online-conference-block .section-type-participation .participation-cards.free .type-participation-block-bottom{
+        height: 150px;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+
+    }
+
+
+    .online-conference-block .section-timer .section-countdown{
+       
+     margin-top: 10px
+    }
+
+        
+}
+
+@media (min-width: 768px) and (max-width: 821px){
+    .online-conference-block .section-timer{
+        padding: 90px 115px;
+    }
+}
+
+@media (min-width: 822px) and (max-width: 1024px){
+    .online-conference-block .section-timer{
+        padding: 90px 205px;
+    }
+}
+
+@media (min-width: 769px){
+.online-conference-block .section-speaker .speaker-card{
+    height: 430px
+}
+}
+
+@media (max-width: 768px){
+    .online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom{
+        height: 150px;
+        justify-content: space-around;
+    }
+
+  
+}
+
+.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom p {
+    font-family: 'Mont-Bold';
+    font-size: 24px;
+    color: #fd6d22;
+}
+
+.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom p.sale{
+    margin-left: 10px;
+    font-family: 'Mont-Regular';
+    font-size: 18px;
+    color: black;
+}
+
+.online-conference-block .section-type-participation .participation-cards.free .type-participation-block .type-participation-block-bottom p.sale{
+    margin-right: 10px;
+}
+
+.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom .conf-price{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.online-conference-block .section-type-participation .participation-cards.free .type-participation-block .type-participation-block-bottom .conf-price{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.online-conference-block .section-type-participation .participation-cards.free .type-participation-block .type-participation-block-bottom .conf-price .sale-free{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 768px){
+    .online-conference-block .section-type-participation .participation-cards.free .type-participation-block .type-participation-block-bottom .conf-price{
+        flex-direction: column;
+    }
+
+    .online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom .conf-price.free{
+        flex-direction: column;
+    }
+}
+
+.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom .conf-price.free p{
+    color: #000
+}
+
+.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom .conf-price.free{
+    flex-direction: row;
+}
+
+
+.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom .conference-registe-btn{
+    margin: 10px 0;
+    max-height: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Mont-Regular';
+    border-radius: 15px;
+}
+
+.online-conference-block .cause{
+    margin: auto 0;
+    font-family: 'Mont-RegularItalic';
+    font-size: 16px;
+
+}
+
+.online-conference-block .section-type-participation .type-participation-block.non-active{
+    opacity: 0.6;
+}
+
+.online-conference-block .section-type-participation .type-participation-block.non-active .type-participation-block-top{
+    color: #474747;
+}
+
+.online-conference-block .section-type-participation .type-participation-block.non-active .type-participation-block-bottom p {
+    color: #474747;
+}
+
+.online-conference-block .section-type-participation .type-participation-block.non-active .type-participation-block-bottom .conference-registe-btn{
+    pointer-events: none;
+    background: #efefef;
+    color:#474747
+}
+
+.online-conference-block .section-organizers{
+    padding-bottom: 75px;
+    background: #fff;
+}
+
+.online-conference-block .section-organizers h2{
+    margin-top: 75px;
+    padding: 0;
+    text-align: start;
+}
+
+
+.online-conference-block .section-organizers .organizers-title{
+    margin-top: 50px
+}
+
+.online-conference-block .section-organizers .organizers-logo.type-1{
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.online-conference-block .section-organizers .organizers-logo a{
+    margin-left: 70px
+}
+
+.online-conference-block .section-organizers .organizers-logo{
+    margin-top: 50px;
+    text-align: center
+
+}
+
+.online-conference-block .section-organizers .readers-logo{
+margin-top: 50px;
+}
+
+@media (max-width: 768px){
+    .online-conference-block .section-organizers .organizers-logo.type-1{
+        justify-content: center;
+    }
+    .online-conference-block .section-organizers .organizers-logo a{
+        margin-left: 20px
+    }
+}
+
+
+.online-conference-block .section-organizers .readers-logo .owl-nav{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    z-index: -1;
+}
+
+.online-conference-block .section-organizers .readers-logo .owl-nav button:hover{
+    background-color: #e9e9e9;  
+    border: none;
+}
+
+.online-conference-block .section-organizers .readers-logo .owl-nav button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    border: 1px solid #b3b3b3;
+}
+
+.online-conference-block .section-organizers .readers-logo .owl-nav button.owl-next img {
+    transform: rotate(180deg);
+}
+
+.online-conference-block .section-help{
+    background-color: #fd6d22;
+    padding: 75px 0;
+}
+
+.online-conference-block .section-help p
+{
+    font-size: 30px;
+    font-family: 'Mont-Bold';
+    color: #fff
+}
+
+.online-conference-block .help-block{
+    margin: 0 auto;
+    max-width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+@media (max-width: 1024px){
+    .online-conference-block .help-block{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .online-conference-block .help-block .help-btn{
+        margin-top: 30px
+
+    }
+
+   }
+
+
+.online-conference-block .section-reviews{
+    padding: 75px 0;
+    background: #fff;
+
+}
+
+.online-conference-block .section-reviews .conf-reviews .owl-nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    z-index: -1;
+}
+
+@media (max-width: 768px){
+    .online-conference-block .section-reviews .conf-reviews .owl-nav{
+    transform: translate(-50%, 0);
+    justify-content: space-around;
+    top: 87%;
+}
+}
+
+.online-conference-block .section-reviews .conf-reviews .owl-nav button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:53px;
+    height: 53px;
+    border-radius: 50%;
+    border: 1px solid #b3b3b3;
+}
+
+@media (max-width: 768px){
+    .online-conference-block .section-reviews .conf-reviews .owl-nav button{
+        width:43px;
+    height: 43px;
+    }
+}
+
+.online-conference-block .section-reviews .conf-reviews .owl-nav button:hover{
+    background-color: #e9e9e9;  
+    border: none;
+}
+
+
+
+.online-conference-block .section-reviews .conf-reviews .owl-nav button.owl-next img{
+    transform: rotate(180deg)
+}
+
+
+.online-conference-block .section-reviews .owl-carousel .owl-item.active:first-child{
+    transition: 1s !important;
+    transform: scale(1.3) !important;
+
+}
+
+.online-conference-block button.slick-prev.slick-arrow{
+    left: -70px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    border: 1px solid #b3b3b3;
+
+}
+@media (max-width: 768px){
+.online-conference-block .readers-logo button.slick-prev.slick-arrow{
+    top: 115%
+}
+.online-conference-block .readers-logo button.slick-next.slick-arrow{
+    top: 115%
+}
+}
+.online-conference-block button.slick-prev.slick-arrow:hover{
+    background-color: #e9e9e9;  
+    border: none;
+}
+
+
+.online-conference-block button.slick-next.slick-arrow{
+    right: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    border: 1px solid #b3b3b3;
+
+}
+
+.online-conference-block button.slick-next.slick-arrow:hover{
+    background-color: #e9e9e9;  
+    border: none;
+}
+
+.online-conference-block .section-reviews .conf-reviews .slick-center{
+    transform: scale(1.2);
+    opacity: none !important;
+}
+
+.online-conference-block .section-reviews .conf-reviews img{
+    padding: 10px
+}
+
+.online-conference-block button.slick-prev.slick-arrow:before{
+    background: url(/images/arrow.png)  no-repeat;
+}
+
+.online-conference-block button.slick-prev:before
+{
+    font-size: 23px;
+    line-height: none;
+    opacity: none;
+    color: inherit;
+}
+
+.online-conference-block button.slick-next.slick-arrow:before{
+    background: url(/images/arrow.png)  no-repeat;
+    transform: rotate(180deg)
+}
+
+
+
+@media (max-width: 768px){
+    .online-conference-block button.slick-next.slick-arrow{
+        right: 70px;
+        top: 105%
+    }
+
+    .online-conference-block button.slick-prev.slick-arrow{
+        left:70px;
+        top: 105%
+    }
+
+}
+
+@media (min-width: 820px) and (max-width: 1020px){
+    .online-conference-block button.slick-next.slick-arrow{
+        right: 100px;
+        top: 105%
+    }
+
+    .online-conference-block button.slick-prev.slick-arrow{
+        left:100px;
+        top: 105%
+    }
+
+}
+
+
+@media (min-width: 740px) and (max-width: 780px){
+    .online-conference-block .section-organizers .readers-logo button.slick-next.slick-arrow{
+        right: 250px;
+        top: 125%
+    }
+
+    .online-conference-block .section-organizers .readers-logo button.slick-prev.slick-arrow{
+        left: 250px;
+        top: 125%
+    }
+
+}
+
+.online-conference-block button.slick-next:before
+{
+    font-size: 23px;
+    line-height: none;
+    opacity: none;
+    color: inherit;
+}
+
+.online-conference-block .slick-dots li button:before{
+    font-size:40px;
+    opacity: none;
+    color: #D6D6D6
+}
+.online-conference-block .slick-dots li.slick-active button:before
+{
+    opacity: none;
+    color: #869791
+}
+
+.online-conference-block .faq-setion{
+    padding: 75px 0;
+    background-color: #faf8f7;
+}
+
+
+.online-conference-block .faq-setion .questions-block{
+    margin-top: 65px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.online-conference-block .faq-setion .questions-block .questions {
+    width: calc(50% - 15px);
+}
+
+
+@media (max-width: 768px){
+    .online-conference-block .faq-setion .questions-block .questions {
+        width: 100%;
+    }
+    }
+
+.online-conference-block .faq-setion .questions-block .questions .item{
+    width: 100%;
+}
+
+.online-conference-block .faq-setion .questions-block .questions .item .collapse{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    cursor: pointer;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Mont-SemiBold';
+    min-height: 70px;
+    border-top: 1px solid #b3b3b3;
+    padding: 25px 45px 25px 0;
+    transition: border 0.5s ease;
+}
+
+@media (max-width: 768px){
+    .online-conference-block .faq-setion .questions-block .questions .item .collapse{
+        padding: 25px 30px 25px 10px;
+        height: 100%;
+    }
+}
+
+
+
+.online-conference-block .faq-setion .questions-block .questions .item:last-child{
+
+    border-bottom: 1px solid #b3b3b3;
+    
+}
+
+
+
+.online-conference-block .faq-setion .questions-block .questions .item .collapse.opened{
+    border-bottom: none
+}
+
+.online-conference-block .faq-setion .questions-block .questions .item .collapse:before {
+    content: "";
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+    font-weight: 900;
+    position: absolute;
+    color: #e9e9e9;
+    font-size: 28px;
+    right: 15px;
+    top: 50%;
+    transform: translate(0px, -50%) rotate(90deg);
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+
+
+.online-conference-block .faq-setion .questions-block .questions .item .collapse:after {
+    content: "";
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+    font-weight: 900;
+    position: absolute;
+    color: rgb(255, 130, 28);
+    font-size: 28px;
+    right: 15px;
+    top: 50%;
+    transform: translate(0px, -50%);
+    transition: all 0.5s ease 0s;
+}
+
+.online-conference-block .faq-setion .questions-block .questions .item .open {
+    display: none;
+    font-size: 16px;
+    padding-bottom: 45px;
+}
+
+@media (max-width: 768px){
+    .online-conference-block .faq-setion .questions-block .questions .item .open{
+        padding: 0 10px 25px 10px
+    }
+}
+
+.online-conference-block .faq-setion .questions-block .questions .item .collapse.opened:before{
+    color: #e9e9e9;
+}
+
+.online-conference-block .faq-setion .questions-block .questions .item .collapse.opened:after{
+    color: #e9e9e9;
+}
+
+.online-conference-block .faq-setion .questions-block .questions .item .collapse.opened:after {
+    transform: translate(0, -50%) rotate(90deg);
+    opacity: 0;
+}
+
+.online-conference-block .faq-setion .questions-block .questions .item .collapse.opened:before {
+    transform: translate(0, -50%) rotate(0deg);
+    opacity: 1;
+}
+
+
+button:hover{
+    background-color: #e9e9e9;  
+    border: none;
+}
+
+
+
+#modal_section_modal {
+    background: #fff;
+    position: relative;
+    padding: 20px 0;
+    width: auto;
+    margin: 20px auto;
+    max-width: 710px;
+
+}
+
+.section-modal .box-content .theses-title p{
+    font-size: 24px;
+    font-family: 'Mont-SemiBold';
+    border-bottom: 2px solid #e7e7e7;
+    padding-bottom: 13px;
+    padding-left: 25px;
+}
+
+
+.section-modal .box-content .mfp-close {
+    width: 50px;
+    height: 50px;
+    line-height: 44px;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    opacity: 1;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-style: normal;
+    font-size: 58px;
+    font-family: 'Mont-Light';
+}
+
+.section-modal .box-content .mfp-close:hover{
+    background: none;
+    color: #b3b3b3
+}
+
+.section-modal .box-content .speaker-about{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+.section-modal .box-content .column .speaker-photo{
+    max-width: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.section-modal .box-content .speaker-title{
+    max-width: 265px;
+    font-size: 22px;
+    font-family: 'Mont-Bold';
+    margin: 30px;
+}
+
+.section-modal .box-content .speaker-content{
+    max-height: 370px;
+    overflow-x: auto;
+    margin-right: 25px;
+    
+}
+
+.section-modal .box-content .speaker-title span {
+    font-family: 'Mont-RegularItalic';
+    font-size: 16px;
+}
+
+.section-modal .box-content .program-block{
+    margin: 10px 50px;
+    font-family: 'Mont-Regular';
+    font-size: 16px;
+    max-height: 195px;
+
+}
+
+.section-modal .box-content .program-block ul li{
+    margin-top: 10px;
+}
+
+.section-modal .box-content .program-block li .fa-circle:before {
+    content: "\f111";
+    font-size: 10px;
+    color: #fd6d22;
+}
+
+.section-modal .box-content .program-block li i {
+    margin: 0 10px 0 0;
+}
+
+@media (max-width: 768px){
+    .section-modal .box-content .program-block{
+        margin: 10px 20px;
+        max-height: 100%;
+    
+    }
+
+    .section-modal .box-content .speaker-content{
+        max-height: 100%;
+        overflow-x: inherit;
+        margin-right: 0;
+    
+        
+    }
+
+    .section-modal .box-content{
+        max-height: 100%
+    }
+}
