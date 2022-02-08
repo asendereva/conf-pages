@@ -1301,7 +1301,7 @@ margin-top: 50px;
 }
 
 .online-conference-block button.slick-prev.slick-arrow:before{
-    background: url(/images/arrow.png)  no-repeat;
+    background: url(arrow.png)  no-repeat;
 }
 
 .online-conference-block button.slick-prev:before
@@ -1313,7 +1313,7 @@ margin-top: 50px;
 }
 
 .online-conference-block button.slick-next.slick-arrow:before{
-    background: url(/images/arrow.png)  no-repeat;
+    background: url(arrow.png)  no-repeat;
     transform: rotate(180deg)
 }
 
