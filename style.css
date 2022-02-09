@@ -829,10 +829,11 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
     justify-content: space-evenly;
 }
 
-.online-conference-block .section-type-participation .type-participation-block{
+.online-conference-block .section-type-participation .participation-cards.free .type-participation-block{
     display: flex;
     background: #fff;
-    height: 100%;
+    width: calc((100% / 2) - 20px);
+    height: auto;
     border-radius: 14px;
     border: none;
     padding: 30px 25px 10px 25px;
@@ -843,6 +844,34 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media (max-width: 428px){
+    .online-conference-block .section-type-participation .participation-cards.free .type-participation-block{
+        width: 100%;
+    }
+
+
+} 
+}
+
+/*добавить*/
+@media screen and (max-width: 768px){
+
+    .online-conference-block .section-type-participation .participation-cards.free .type-participation-block:last-child{
+        margin-top: 0 !important;
+        
+    }
+} 
+}
+
+/*добавить*/
+.online-conference-block .section-type-participation .participation-cards.free .type-participation-block .type-participation-block-bottom .conf-price{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
 
 .online-conference-block .section-type-participation .type-participation-block.free:hover{
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -926,13 +955,13 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
         padding: 15px 35px 5px 35px;
     }
 
-        .online-conference-block .section-type-participation .participation-cards{
+         .online-conference-block .section-type-participation .participation-cards{
         display: flex;
         justify-content: space-between;
         flex-direction: row;
         flex-wrap: wrap;  
-        justify-content: center;
     }
+    
 
     
     .online-conference-block .section-type-participation .participation-cards .last{
@@ -1000,11 +1029,15 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
     margin-right: 10px;
 }
 
-.online-conference-block .section-type-participation .participation-cards .type-participation-block .type-participation-block-bottom .conf-price{
+.online-conference-block .section-type-participation .participation-cards.pay .type-participation-block .type-participation-block-bottom .conf-price{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
+}
+
+.online-conference-block .section-type-participation .participation-cards.pay .type-participation-block .type-participation-block-bottom .conf-price .conf-sale{
+    display: flex
 }
 
 .online-conference-block .section-type-participation ..online-conference-block .section-type-participation .type-participation-block-top.free .type-participation-block .type-participation-block-bottom .conf-price{
