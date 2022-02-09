@@ -253,7 +253,15 @@ padding: 15px 15px;
     display: flex;
     padding: 10px 22px;
     align-items: center;
+    
 }
+
+@media (max-width: 428px)  {
+    .online-conference-block .section-conference .price_block-top .btn-white.youtube{
+    font-size: 24px;
+    }
+}
+
 
 .online-conference-block .section-conference .price_block-top .btn-white.youtube img{
 margin-right: 10px;
