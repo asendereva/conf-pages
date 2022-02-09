@@ -252,6 +252,7 @@ padding: 15px 15px;
 .online-conference-block .section-conference .price_block-top .btn-white.youtube{
     display: flex;
     padding: 10px 22px;
+    align-items: center;
 }
 
 .online-conference-block .section-conference .price_block-top .btn-white.youtube img{
