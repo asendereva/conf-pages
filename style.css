@@ -249,6 +249,15 @@ padding: 15px 15px;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
 }
 
+.online-conference-block .section-conference .price_block-top .btn-white.youtube{
+    display: flex;
+    padding: 10px 22px;
+}
+
+.online-conference-block .section-conference .price_block-top .btn-white.youtube img{
+margin-right: 10px;
+}
+
 .online-conference-block .conference-iformation{
     border-top: 1px solid rgba(255, 255, 255, 0.3);
 
