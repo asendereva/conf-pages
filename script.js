@@ -63,8 +63,8 @@ $(".readers-logo").slick({
         infinite: true,
         centerMode: true,
         centerPadding: '20px',
-        slidesToShow: 4,
-
+        slidesToShow: 2,
+        mobileFirst: true,
         responsive: [
          {
             breakpoint: 425,
