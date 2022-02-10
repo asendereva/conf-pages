@@ -66,6 +66,16 @@ $(".readers-logo").slick({
         slidesToShow: 4,
         mobileFirst: true,
         responsive: [
+          {
+            breakpoint: 320,
+            settings: {
+              arrows: true,
+              dots: false,
+              centerMode: true,
+              centerPadding: '20px',
+              slidesToShow: 2
+            }
+          },
              {
             breakpoint: 425,
             settings: {
@@ -73,7 +83,7 @@ $(".readers-logo").slick({
               dots: false,
               centerMode: true,
               centerPadding: '20px',
-              slidesToShow: 2
+              slidesToShow: 4
             }
           },
           {
