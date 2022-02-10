@@ -1542,6 +1542,11 @@ button:hover{
     .online-conference-block h2{
         font-size: 30px;
     }
+    
+    .online-conference-block .conference-iformation .iformation-row{
+        flex-direction: column;
+        align-items: center;
+    }
 
     .online-conference-block .section-speaker .speaker-card .speaker-desc{
         min-height: 178px
@@ -1666,10 +1671,6 @@ button:hover{
 }
 
 @media (max-width: 540px){
-    .online-conference-block .conference-iformation .iformation-row{
-        flex-direction: column;
-        align-items: center;
-    }
 
     .online-conference-block .conference-iformation .iformation-row .column{
         max-width: 100%;
