@@ -1356,6 +1356,78 @@ button:hover{
 
 }
 
+
+@media (min-width: 1380px){
+    .online-conference-block .section-conference .price_block-top .price_block{
+        width: 40%;
+    }
+}
+
+@media (max-width: 1026px){
+    .online-conference-block .section-conference .price_block-top .price_block{
+        width: 60%;
+    }
+
+    .online-conference-block .conference-iformation .iformation-row .column span{
+        margin-right: 15px;
+        font-size:40px;
+    }
+}
+
+
+@media (max-width: 1024px){
+    .online-conference-block .section-writing .writing-block.dinner .program-decript{
+        text-align: start
+    }
+
+    .online-conference-block .section-participation{
+        padding: 75px 0;
+    }
+
+    .online-conference-block .section-timer h2{
+        text-align: center;
+    }
+    .online-conference-block .section-type-participation .participation-cards.pay .type-participation-block{
+        width: calc((100% / 2) - 20px);
+    }
+
+    .online-conference-block .section-writing .writing-block{
+        flex-direction: row-reverse;
+    }
+
+    .online-conference-block .section-writing .writing-block.dinner{
+        flex-direction: row;
+    }
+
+    .online-conference-block .section-writing .writing-block.dinner .writing-title{
+        margin-top: 15px
+    }
+
+    .online-conference-block .help-block{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .online-conference-block .help-block .help-btn{
+        margin-top: 30px
+
+    }
+
+    .online-conference-block .section-writing .writing-block .program-decript{
+        margin-top:15px;
+        padding: 15px 0 0 0;
+        border-left: none;
+        border-top: 1px solid #b3b3b3
+    }
+
+    .online-conference-block .section-writing .writing-block a.more.online-conf-more-block{
+        order: -1
+    }
+
+}
+
 @media (min-width: 822px) and (max-width: 1024px){
     .online-conference-block .section-timer{
         padding: 90px 205px;
@@ -1400,7 +1472,7 @@ button:hover{
 @media (min-width: 768px) and (max-width: 1024px){
 
     .online-conference-block .section-conference .btn-white{
-        font-size: 24px;
+        font-size: 22px;
         padding: 15px 35px 5px 35px;
     }
 
@@ -1469,11 +1541,6 @@ button:hover{
 
     .online-conference-block h2{
         font-size: 30px;
-    }
-
-    .online-conference-block .conference-iformation .iformation-row .column span{
-        margin-right: 15px;
-        font-size:40px;
     }
 
     .online-conference-block .section-speaker .speaker-card .speaker-desc{
@@ -1617,6 +1684,10 @@ button:hover{
 }
 
 @media (max-width: 428px){
+    .online-conference-block .section-speaker .speaker-card .speaker-title{
+        margin: 10px;
+    }
+
     .online-conference-block .section-type-participation .participation-cards.free .type-participation-block{
         width: 90%;
         margin-top: 15px;
@@ -1663,7 +1734,6 @@ button:hover{
         margin-right: 10px;
     }
 }
-
 
 
 
