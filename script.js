@@ -64,26 +64,16 @@ $(".readers-logo").slick({
         centerMode: true,
         centerPadding: '20px',
         slidesToShow: 4,
-        mobileFirst: true,
+
         responsive: [
-          {
-            breakpoint: 320,
-            settings: {
-              arrows: true,
-              dots: false,
-              centerMode: true,
-              centerPadding: '20px',
-              slidesToShow: 2
-            }
-          },
-             {
+         {
             breakpoint: 425,
             settings: {
               arrows: true,
               dots: false,
               centerMode: true,
               centerPadding: '20px',
-              slidesToShow: 4
+              slidesToShow: 2
             }
           },
           {
