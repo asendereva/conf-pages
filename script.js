@@ -63,17 +63,17 @@ $(".readers-logo").slick({
         infinite: true,
         centerMode: true,
         centerPadding: '20px',
-        slidesToShow: 3,
+        slidesToShow: 4,
         mobileFirst: true,
         responsive: [
              {
-            breakpoint: 325,
+            breakpoint: 425,
             settings: {
               arrows: true,
               dots: false,
               centerMode: true,
               centerPadding: '20px',
-              slidesToShow: 3
+              slidesToShow: 2
             }
           },
           {
@@ -82,6 +82,7 @@ $(".readers-logo").slick({
          }           
         ]
      }); 
+      
       
 
 
