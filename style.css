@@ -941,6 +941,14 @@ margin-right: 10px;
 
 }
 
+.online-conference-block .section-reviews .conf-reviews .slick-active{
+    opacity: 0.6;
+}
+
+.online-conference-block .section-reviews .conf-reviews .slick-active.slick-center{
+    opacity: 1
+}
+
 .online-conference-block .section-reviews .conf-reviews .owl-nav{
     display: flex;
     justify-content: space-between;
