@@ -73,7 +73,17 @@ $(".readers-logo").slick({
               dots: false,
               centerMode: true,
               centerPadding: '20px',
-              slidesToShow: 2
+              slidesToShow: 4
+            }
+          },
+          {
+            breakpoint: 810,
+            settings: {
+              arrows: true,
+              dots: false,
+              centerMode: true,
+              centerPadding: '20px',
+              slidesToShow: 4
             }
           },
           {
