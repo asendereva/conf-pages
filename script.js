@@ -58,12 +58,12 @@ responsive: [
 });
 
 
-      $(".readers-logo").slick({ 
+$(".readers-logo").slick({ 
         dots: false,
         infinite: true,
         centerMode: true,
         centerPadding: '20px',
-        slidesToShow: 4,
+        slidesToShow: 3,
         mobileFirst: true,
         responsive: [
              {
@@ -77,7 +77,7 @@ responsive: [
             }
           },
           {
-            breakpoint: 768,
+            breakpoint: 820,
             settings: "unslick"
          }           
         ]
