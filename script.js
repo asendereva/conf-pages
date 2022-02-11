@@ -62,7 +62,7 @@ $(".readers-logo").slick({
         dots: false,
         infinite: true,
         centerMode: true,
-        centerPadding: '20px',
+        centerPadding: '5px',
         slidesToShow: 2,
         mobileFirst: true,
         responsive: [
