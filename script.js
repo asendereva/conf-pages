@@ -5,6 +5,7 @@ $(".speaker-carousel").slick({
   infinite: true,
   centerPadding: '20px',
   slidesToShow: 2,
+  adaptiveHeight: true,
   responsive: [
     {
       breakpoint: 768,
