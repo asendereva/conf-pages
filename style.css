@@ -1577,8 +1577,10 @@ button:hover{
 @media (max-width: 428px){
  
     .online-conference-block .section-speaker .speaker-card .speaker-desc{
-        margin-top: 0;
+        height: 140px;
     }
+    
+
 
     .online-conference-block .section-type-participation .participation-cards.free .type-participation-block{
         width: 90%;
